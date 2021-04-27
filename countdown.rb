@@ -2,8 +2,7 @@
 
 def countdown(n)
   
-  if n == 12 
-    puts "HAPPY NEW YEAR!"
+  n == 12 ?  "HAPPY NEW YEAR!" : nil
     
   elsif
     while n > 0 
