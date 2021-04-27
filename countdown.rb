@@ -4,6 +4,8 @@ def countdown(n)
   
   if n == 12 
     puts "HAPPY NEW YEAR!"
+    
+  elsif
   end
   
   while n > 0 
