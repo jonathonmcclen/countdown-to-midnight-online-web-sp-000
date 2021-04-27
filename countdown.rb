@@ -2,11 +2,16 @@
 
 def countdown(n)
   
-  n == 12 ?  "HAPPY NEW YEAR!" : nil
+  if n == 12 
+    return "HAPPY NEW YEAR!"
     
+  elsif
     while n > 0 
       puts "#{n} SECOND(S)!"
       n -= 1
     end
+  end
+  
+  
   
 end
